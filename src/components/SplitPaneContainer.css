@@ -1,0 +1,17 @@
+.gutter {
+  background-color: #ff0000 !important;  /* Cambia el color a rojo (puedes elegir otro color) */
+  }
+  
+  .gutter.gutter-horizontal {
+    height: 2px;  /* Grosor de la línea horizontal */
+    cursor: row-resize;
+    border-top: 1px solid #999;  /* Añadir borde para cambiar el color de la línea */
+
+  }
+  
+  .gutter.gutter-vertical {
+    width: 2px;  /* Grosor de la línea vertical */
+    cursor: col-resize;
+    border-left: 1px solid #999;
+  }
+
